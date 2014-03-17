@@ -9,4 +9,4 @@ using the output vector from the neural net, the applications makes a prediction
 
 load_network.m also includes functions to generate random networks, and train networks to a given training set.
 
-    note: if anyone wants to run this on their system, they will need to edit octave/call_octave.bat
+    note: if anyone wants to run this on their system, they will need to edit octave/octave_call.bat
