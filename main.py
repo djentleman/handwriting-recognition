@@ -68,10 +68,12 @@ def event_loop(cam):
         
 
 def main():
-        cam = init_cam()
-        event_loop(cam)
-        print "No Camera Found..."
-        return
+        try:
+            cam = init_cam()
+            event_loop(cam)
+        except:
+            print "No Camera Found..."
+            return
 
 if __name__ == "__main__":
     main()
